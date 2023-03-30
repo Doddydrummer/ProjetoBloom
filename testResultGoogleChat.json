@@ -1,0 +1,23 @@
+{
+  "reports": [
+    {
+      "targets": [
+        {
+          "name": "chat",
+          "condition": "passOrFail",
+          "inputs": {
+            "url": "https://chat.googleapis.com/v1/spaces/AAAAqnr7sJo/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=tOO44jt_ECwtWtVxBac4WNkWfgl64CH-5AQDaxU2Sus%3D",
+            "title": "Projeto Bloom",
+            "publish": "test-summary-slim"
+          }
+            }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "type": "testng",
+          "files": ["target/surefire-reports/testng-results.xml"]
+        }
+      ]
+}
